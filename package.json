@@ -1,5 +1,5 @@
 {
-  "name": "browser-sync-liz",
+  "name": "browserdemo",
   "version": "1.0.0",
   "description": "a demo for browser-sync",
   "main": "gulpfile.js",
