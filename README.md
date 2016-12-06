@@ -2,7 +2,7 @@
 本工程是一个简单的例子关于：browser-sync
 
 
-## *browser-sync*是什么？(以下全部来源于官网)
+## *browser-sync*是什么？(以下全部来源于[官网](http://www.browsersync.cn/))
 
 ### 省时的浏览器同步测试工具
 
