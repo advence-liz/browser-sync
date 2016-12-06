@@ -32,7 +32,7 @@ Browsersync能让浏览器实时、快速响应您的文件更改（html、js、
    
    其中 --proxy  为ip或者域名（默认localhost：80）
 
-  ![](./image/server.png)    
+  ![](./image/cmd.png)    
 
    截图中UI：http：//localhost：3001 为管理界面
 
