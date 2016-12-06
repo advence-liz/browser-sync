@@ -18,8 +18,9 @@ Browsersync能让浏览器实时、快速响应您的文件更改（html、js、
 
 * 安装node（一键安装不要修改安装路径)[下载链接](http://nodejs.cn/)
 
-* 下载github repository 两种方式其一 :clone with git or checkout with svn其二:直接下载 zip[下载链接](https://github.com/advence-liz/browser-sync)
-
+* 下载github repository 两种方式[下载链接](https://github.com/advence-liz/browser-sync)
+  * 其一 :clone with git or checkout with svn
+  * 其二:直接下载 zip(这种方式比较简单如果对git不熟悉推荐这样下载)
 * 执行node初始化命令
   1. 打开工程根目录  
   2. 按住 shift 点击鼠标右键
