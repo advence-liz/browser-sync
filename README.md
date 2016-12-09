@@ -24,7 +24,7 @@ Browsersync能让浏览器实时、快速响应您的文件更改（html、js、
 * 执行node初始化命令
   1. 打开工程根目录(下载zip文件之后解压，工程根目录即解压之后的文件夹)   
 
-      ![目录结构](./image/root.png)
+      ![目录结构](./image/rootf.png)
 
   2. 按住 <kbd>shift</kbd> 点击鼠标右键
   3. 弹出菜单中有一个“open commanded window here”左键点击它 （这样就会弹出工作目录为当前目录的命令窗口）
@@ -33,10 +33,16 @@ Browsersync能让浏览器实时、快速响应您的文件更改（html、js、
   ```bash
      $ npm install
   ```   
+  5. 在命令行中键入 npm install gulp -g 
+  ```bash
+     $ npm install gulp -g
+  ```
 * 启动browser-sync 
    
    其中 --proxy  为ip或者域名（默认localhost：80）
-
+   ```bash
+      $ gulp --proxy localhost：8000
+  ```
   ![](./image/cmd.png)    
 
    截图中UI：http：//localhost：3001 为管理界面
