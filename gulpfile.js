@@ -13,11 +13,12 @@ var proxy = argv.proxy;
 //     });
 // });
 
-// http://nodejs.cn/
+// http://nodejs.cn/ drivers  certmgr.msc
 gulp.task('browser-sync', function () {
 
     browserSync.init({
-        proxy: proxy || "localhost:80"
+        proxy: proxy || "localhost:8000",
+        port:80
     });
     //  gulp.watch("*.html").on("change", browserSync.reload);
 });
