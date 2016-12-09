@@ -51,6 +51,26 @@ Browsersync能让浏览器实时、快速响应您的文件更改（html、js、
 
 * 关闭browser-sync 在命令窗口 <kbd>ctrl+C</kbd> 或者直接关闭窗口   
 
+## 安装数字证书
+上面步骤都进行完毕后还是有个小小的问题就是browser-sync站点的数字证书不被信任，下面介绍如何安装证书
+
+- 打开IE浏览器，键入链接点击 continue， 然后会出现如下图的 *Certificate error* 点击*Certificate error*
+
+ ![](./image/step1.png)
+
+ - 点击 View Certificates
+
+ ![](./image/step2.png)
+
+ - 点击 Install Certificate
+
+ ![](./image/step3install.png)
+
+- 按图选择安装位置
+
+  ![](./image/step4.png)
+
+-  设置完成之后可以保证本机所有浏览器信任站点，关闭浏览器重新打开。
 ## 原理浅析
 
 - 首先browser-sync完成一个反向代理的功能将我们要访问的网页悄悄取回来稍稍的加一些处理。
