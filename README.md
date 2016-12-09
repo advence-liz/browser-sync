@@ -22,7 +22,10 @@ Browsersync能让浏览器实时、快速响应您的文件更改（html、js、
   * 其一 :clone with git or checkout with svn
   * 其二:直接下载 zip(这种方式比较简单如果对git不熟悉推荐这样下载)
 * 执行node初始化命令
-  1. 打开工程根目录  
+  1. 打开工程根目录(下载zip文件之后解压，工程根目录即解压之后的文件夹)   
+
+      ![目录结构](./image/root.png)
+
   2. 按住 <kbd>shift</kbd> 点击鼠标右键
   3. 弹出菜单中有一个“open commanded window here”左键点击它 （这样就会弹出工作目录为当前目录的命令窗口）
   4. 在命令行中键入 npm install
